@@ -1,4 +1,6 @@
+import time
 def insertsort(list):
+    tiempo = time.time()
     for inicio in range(1,len(list)):
         valor=list[inicio]
         i=inicio -1
@@ -9,3 +11,4 @@ def insertsort(list):
                i=i-1
           else:
               break
+    print time.time()-tiempo

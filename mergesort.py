@@ -19,9 +19,9 @@ def mergeSort(toSort):
 	    result.extend(mergeSort(right))
 
 	return result
-										def main():
+def main():
 	l = [1, 6, 7, 2, 76, 45, 23, 4, 8, 12, 11]
 	sortedList = mergeSort(l)
 	print sortedList
-										if __name__ == '__main__':
+if __name__ == '__main__':
 	main()
